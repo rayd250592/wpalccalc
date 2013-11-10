@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{c201765b-0afd-4e8b-9321-f0e6185436d9}" Title="Alcohol_Unit_Calculator" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Alcohol_Unit_Calculator author" Description="Sample description" Publisher="Alcohol_Unit_Calculator">
+    <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+    <Capabilities>
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="Alcohol_Unit_CalculatorToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">store_tile.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>Alcohol_Unit_Calculator</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
